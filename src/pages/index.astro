@@ -1,6 +1,7 @@
 ---
 import { Header } from "../components/Header";
 import { Hero } from "../components/Hero";
+import { Info } from "../components/Info";
 import Layout from "../layouts/Layout.astro";
 import "../styles/globals.css";
 ---
@@ -8,4 +9,5 @@ import "../styles/globals.css";
 <Layout title="Surfbot">
 	<Header />
 	<Hero client:load />
+	<Info />
 </Layout>

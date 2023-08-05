@@ -1,6 +1,6 @@
-export const Ellipsis = () => (
+export const Ellipsis = ({ className }: { className: string }) => (
   <svg
-    className="inline"
+    className={`inline ${className}`}
     width="8"
     height="8"
     fill="none"
